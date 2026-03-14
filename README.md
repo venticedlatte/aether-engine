@@ -202,4 +202,4 @@ Apache 2.0
 
 ---
 
-Built by [Plover Studios](https://plover.studio). Contact: aether@plover.studio
+Built by [Plover Studios](https://plover.studio). Contact: contact@aeroza.dev
