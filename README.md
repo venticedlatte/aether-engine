@@ -4,7 +4,7 @@
 
 Thermal. Structural. Electromagnetic. One solver chain. Sub-second wall time.
 
-No existing tool, open-source or commercial, couples these three physics domains for photonic ICs in a single run. Aether does.
+Aether, couples three physics domains for photonic ICs in a single run.
 
 ---
 
