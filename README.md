@@ -4,7 +4,7 @@
 
 Thermal. Structural. Electromagnetic. One solver chain. Sub-second wall time.
 
-No existing tool — open-source or commercial — couples these three physics domains for photonic ICs in a single run. Aether does.
+No existing tool, open-source or commercial, couples these three physics domains for photonic ICs in a single run. Aether does.
 
 ---
 
@@ -16,7 +16,7 @@ Photonic chips are being deployed in hypersonic vehicles, LEO satellites, cryoge
 - **Thermal stress** warps waveguide geometry and induces birefringence (photoelastic effect)
 - **CTE mismatch** between thin-film layers generates hundreds of MPa of mechanical stress
 
-These effects interact. You cannot simulate them separately and add the results — the coupling is nonlinear. A resonance shift from thermal expansion changes the stress field, which changes the index, which changes the resonance.
+These effects interact. You cannot simulate them separately and add the results, the coupling is nonlinear. A resonance shift from thermal expansion changes the stress field, which changes the index, which changes the resonance.
 
 Aether solves the coupled system.
 
@@ -33,7 +33,7 @@ Aether solves the coupled system.
 | **LNOI** | 203.0 MPa | +0.001656 | +0.611 nm | PASS |
 | **InP** | 0.0 MPa | +0.006919 | +2.553 nm | PASS |
 
-**Key finding:** LNOI (thin-film lithium niobate) develops **8x more thermal stress** than SOI under identical flight conditions. This is driven by LiNbO₃'s CTE of 15.4×10⁻⁶ /K vs SiO₂'s 0.55×10⁻⁶ /K — a 28x mismatch that becomes critical in defense thermal environments.
+**Key finding:** LNOI (thin-film lithium niobate) develops **8x more thermal stress** than SOI under identical flight conditions. This is driven by LiNbO₃'s CTE of 15.4×10⁻⁶ /K vs SiO₂'s 0.55×10⁻⁶ /K - a 28x mismatch that becomes critical in defense thermal environments.
 
 This is directly relevant to programs developing domestic TFLN photonic capability for defense applications.
 
@@ -49,7 +49,7 @@ This is directly relevant to programs developing domestic TFLN photonic capabili
   Mach 8  ███████████████████████████████████░░░░░░░  701.0 MPa
 ```
 
-LNOI CTE mismatch stress scales quadratically with Mach number. At Mach 8, film stress reaches **701 MPa** — approaching the fracture strength of lithium niobate thin films (~1 GPa). This predicts delamination risk for TFLN photonics on high-Mach platforms without stress mitigation.
+LNOI CTE mismatch stress scales quadratically with Mach number. At Mach 8, film stress reaches **701 MPa**, approaching the fracture strength of lithium niobate thin films (~1 GPa). This predicts delamination risk for TFLN photonics on high-Mach platforms without stress mitigation.
 
 ### Environment sweep: SOI 220nm across operating conditions
 
@@ -82,13 +82,13 @@ LNOI CTE mismatch stress scales quadratically with Mach number. At Mach 8, film 
   CTE mismatch         2.05×10⁻⁶ /K      14.85×10⁻⁶ /K  (7.2x larger)
   Thermal stress       24.8 MPa           203.0 MPa       (8.2x larger)
   dn (thermo-optic)    +0.006282          +0.001128       (Si has higher dn/dT)
-  dn (photoelastic)    +0.000100          −0.000239       (opposite sign — compressive)
+  dn (photoelastic)    +0.000100          −0.000239       (opposite sign - compressive)
   dn (total)           +0.006461          +0.001656
   Resonance shift      +2.384 nm          +0.611 nm
   Insertion loss       1.00 dB            0.02 dB
 ```
 
-The photoelastic effect in LNOI is **compressive** (negative dn) while SOI is tensile (positive dn) — they push the effective index in opposite directions. This is not captured by single-domain thermal or structural simulation alone.
+The photoelastic effect in LNOI is **compressive** (negative dn) while SOI is tensile (positive dn) - they push the effective index in opposite directions. This is not captured by single-domain thermal or structural simulation alone.
 
 ---
 
@@ -96,7 +96,7 @@ The photoelastic effect in LNOI is **compressive** (negative dn) while SOI is te
 
 ```
 ========================================================================
-  AETHER ENGINE — Coupled Multiphysics Analysis Report
+  AETHER ENGINE Coupled Multiphysics Analysis Report
 ========================================================================
 
 Environment:  Hypersonic Mach 6.0, 25.0 km
