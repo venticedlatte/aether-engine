@@ -1,6 +1,6 @@
 # Aether Engine
 
-**The first coupled multiphysics simulation engine for photonic integrated circuits under extreme environments.**
+**Coupled multiphysics simulation engine for photonic integrated circuits under extreme environments.**
 
 Thermal. Structural. Electromagnetic. One solver chain. Sub-second wall time.
 
